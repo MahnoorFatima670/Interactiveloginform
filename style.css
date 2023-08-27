@@ -168,7 +168,197 @@ button {
     color:white;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image:url("   https://github.com/rahimaqamar123/login-page/blob/main/login.background.jpg?raw=true ") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+.signin-container {
+    max-width: 370px;
+    margin: 0 auto;
+   * Transparent black background */
+     padding:30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    color:white;
+    border-radius:25px;
+    height: 460px;
+    border: 1px solid white;
+    margin-top: 82px;
+
+
+}
+.signin-container h1
+{
+    margin-top: 35px;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.email-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    gap:500px;
+}
+.password-container
+{
+position: relative;
+display: flex;
+align-items: center;
+gap:500px;
+margin-top: 60px;
+}
+
+.email-container h3
+{
+    color: white;
+    margin-left:60px;
+    
+}
+
+.password-container h3
+{
+    color: white;
+    margin-left:65px;
+    
+}
+
+.email {
+     
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    
+    width: 240px;
+    left:41%;
+    margin-top:-21px;
+    height:20px;
+    
+}
+
+.password {  
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    
+    width: 240px;
+    left:41%;
+    margin-top:-19px;
+}
+
+.email-icon {
+    position: absolute;
+    left: 75%;
+}
+
+.lock-icon {
+    position: absolute;
+    left: 75%;
+}
+
+.check-box
+{
+    position: absolute;
+    bottom: 39%;
+    left: 38%;
+}
+.checkbox-line
+{
+display:flex;
+justify-content: left;
+
+}
+
+.checkbox-line h3
+{
+font-size: 15px;
+margin-right: 5px;
+
+}
+
+.checkbox-line1
+{
+display: flex;
+gap:60px;
+justify-content: center;
+margin-bottom: 1px;
+margin-top: 25px;
+}
+
+.checkbox-line1 h3
+{
+    font-size: 15px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 6px;
+    border-radius: 32px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.rigister
+{
+    margin-top: 20px;
+}
+
+.signin-container a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+@media (max-width: 600px) {
+    .signin-container {
+      max-width: 100%;
+      margin-top: 20px;
+      padding: 15px;
+      border: none;
+      height: auto;
+      box-shadow: none;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  
+    .email, .password {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    /* Adjust other styles for mobile as needed */
+  }
+  
 
  
 
