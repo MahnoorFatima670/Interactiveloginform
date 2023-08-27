@@ -177,7 +177,7 @@ button {
 
 
 
-@media (max-width: 200px) {
+@media (max-width: 600px) {
 
     .signin-container {
       max-width: 80%;
